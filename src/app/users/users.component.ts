@@ -8,8 +8,5 @@ import { UserService } from '../services/user.service';
 })
 export class UsersComponent {
   // @Input()
-  users: string = 'car';
-  constructor(_userService: UserService){
-    this.users = _userService.getUsers();
-  }
+  
 }
